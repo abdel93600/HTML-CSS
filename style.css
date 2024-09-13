@@ -16,10 +16,11 @@ body span{
     background-color: rgb(255, 255, 255);
     color: rgb(8, 90, 33);
     padding: 4px;
+    margin: 4px;
 }
 .header li {
     float: right;
-    
+    font-family: 'Arial', sans-serif;
 }
 .header ul{
     display: flex;
@@ -47,3 +48,6 @@ p{
     font-family: 'Arial', sans-serif;
     padding: 10px;
 }
+a {
+    text-decoration: none; /* Enlève le soulignement des liens */
+  }
